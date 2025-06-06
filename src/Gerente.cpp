@@ -1,11 +1,11 @@
 #include "Gerente.hpp"
 #include <iostream>
 
-void setBonusMensal(float bonusMensal) { 
+void Gerente::setBonusMensal(float bonusMensal) { 
   this->bonusMensal = bonusMensal; 
 }
 
-float getBonusMensal() { 
+float Gerente::getBonusMensal() { 
   return bonusMensal; 
 }
 
