@@ -6,7 +6,7 @@ void setBonusMensal(float bonusMensal) {
 }
 
 float getBonusMensal() { 
-  return this->bonusMensal; 
+  return bonusMensal; 
 }
 
 float Gerente::calcularSalarioFinal() {
