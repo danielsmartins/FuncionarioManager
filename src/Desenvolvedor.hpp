@@ -3,11 +3,11 @@
 
 class Desenvolvedor : public Funcionario { 
 private:
-    int quantidadeDeProjetos; [cite: 5]
+    int quantidadeDeProjetos;
 
 public:
-    void setQuantidadeDeProjetos(int q) { quantidadeDeProjetos = q; }
-    int getQuantidadeDeProjetos() { return quantidadeDeProjetos; }
+    void setQuantidadeDeProjetos(int q);
+    int getQuantidadeDeProjetos();
 
     float calcularSalarioFinal() override;
     void exibirInformacoes() override;
