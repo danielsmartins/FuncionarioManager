@@ -4,14 +4,14 @@
 #include <iostream>
 
 class Funcionario {
-    protected: 
+protected: 
     std::string nome;
     float salarioBase;
 
-    private: 
+private: 
     int id;
 
-    public:
+public:
     virtual ~Funcionario() {} // destrutor virtual para deletar uma instância derivada usando um ponteiro da base
 
     void setNome(const std::string& nome);
