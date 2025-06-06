@@ -14,8 +14,4 @@ float Desenvolvedor::calcularSalarioFinal() {
 }
 
 void Desenvolvedor::exibirInformacoes() {
-  Funcionario::exibirInformacoes();
-
-  std::cout << "Tipo: Desenvolvedor" << std::endl;
-  std::cout << "Projetos: " << quantidadeDeProjetos << std::endl;
 }
