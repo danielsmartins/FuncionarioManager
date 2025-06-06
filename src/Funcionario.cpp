@@ -11,8 +11,8 @@ std::string Funcionario::getNome() const {
     return nome;
 }
 
-void Funcionario::setSalarioBase(float salario) {
-    this->salarioBase = salario;
+void Funcionario::setSalarioBase(float salarioBase) {
+    this->salarioBase = salarioBase;
 }
 
 float Funcionario::getSalarioBase() const {
