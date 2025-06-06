@@ -1,16 +1,21 @@
-#include "src/Funcionario.hpp"
+#include "Desenvolvedor.hpp"
 #include <iostream>
 
-Desenvolvedor::setQuantidadeDeProjetos(int quantidadeDeProjetos){
+void Desenvolvedor::setQuantidadeDeProjetos(int quantidadeDeProjetos) {
   this->quantidadeDeProjetos = quantidadeDeProjetos;
 }
 
-Desenvolvedor::getQuantidadeDeProjetos(){
+int Desenvolvedor::getQuantidadeDeProjetos() {
   return quantidadeDeProjetos;
 }
 
-Desenvolvedor::calcularSalarioFinal(){
+float Desenvolvedor::calcularSalarioFinal() {
+  return salarioBase + (500.0f * quantidadeDeProjetos);
 }
 
-Desenvolvedor::exibirInformacoes(){
+void Desenvolvedor::exibirInformacoes() {
+  Funcionario::exibirInformacoes();
+
+  std::cout << "Tipo: Desenvolvedor" << std::endl;
+  std::cout << "Projetos: " << quantidadeDeProjetos << std::endl;
 }
