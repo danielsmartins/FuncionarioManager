@@ -1,8 +1,8 @@
 #include "src/Funcionario.hpp"
 #include <iostream>
 
-Desenvolvedor::setQuantidadeDeProjetos(int q){
-  quantidadeDeProjetos = q;
+Desenvolvedor::setQuantidadeDeProjetos(int quantidadeDeProjetos){
+  this->quantidadeDeProjetos = q;
 }
 
 Desenvolvedor::getQuantidadeDeProjetos(){
