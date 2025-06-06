@@ -10,6 +10,5 @@ public:
     int getQuantidadeDeProjetos() { return quantidadeDeProjetos; }
 
     float calcularSalarioFinal() override;
-
     void exibirInformacoes() override;
 };
