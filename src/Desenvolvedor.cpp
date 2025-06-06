@@ -2,7 +2,7 @@
 #include <iostream>
 
 Desenvolvedor::setQuantidadeDeProjetos(int quantidadeDeProjetos){
-  this->quantidadeDeProjetos = q;
+  this->quantidadeDeProjetos = quantidadeDeProjetos;
 }
 
 Desenvolvedor::getQuantidadeDeProjetos(){
