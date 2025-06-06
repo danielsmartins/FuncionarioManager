@@ -1,15 +1,17 @@
-#pragma once
+#include "Estagiario.hpp"
+#include <iostream>
 
-#include "Funcionario.hpp"
+void Estagiario::setHorasTrabalhadas(int horasTrabalhadas) {
+  this->horasTrabalhadas = horasTrabalhadas;
+}
 
-class Estagiario : public Funcionario {
-  private:
-  int horasTrabalhadas;
+int Estagiario::getHorasTrabalhadas(){
+  return horasTrabalhadas;
+}
 
-  public:
-  void setHorasTrabalhadas(int horasTrabalhadas);
-  int getHorasTrabalhadas();
+float Estagiario::calcularSalarioFinal(){
+  return salarioBase * (horasTrabalhadas / 160.0f);
+}
 
-  float calcularSalarioFinal() override;
-  void exibirInformacoes() override;
-};
+void Estagiario::exibirInformacoes(){
+}
