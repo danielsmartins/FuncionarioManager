@@ -10,7 +10,7 @@ float Gerente::getBonusMensal() {
 }
 
 float Gerente::calcularSalarioFinal() {
-    return salarioBase + bonusMensal;
+  return salarioBase + bonusMensal;
 }
 
 void Gerente::exibirInformacoes() {
