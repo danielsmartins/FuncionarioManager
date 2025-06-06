@@ -2,10 +2,10 @@
 #include "Funcionario.hpp"
 
 class Desenvolvedor : public Funcionario { 
-private:
+    private:
     int quantidadeDeProjetos;
 
-public:
+    public:
     void setQuantidadeDeProjetos(int q);
     int getQuantidadeDeProjetos();
 
