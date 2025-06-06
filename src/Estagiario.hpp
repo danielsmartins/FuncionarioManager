@@ -10,6 +10,6 @@ class Estagiario : public Funcionario {
   void setHorasTrabalhadas(int horasTrabalhadas);
   int getHorasTrabalhadas();
 
-  float calcularSalarioFinal() override;
-  void exibirInformacoes() override;
+  float calcularSalarioFinal() const override;
+  void exibirInformacoes() const override;
 };

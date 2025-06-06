@@ -1,7 +1,5 @@
-#include "src/Funcionario.hpp"
+#include "Funcionario.hpp"
 #include <iostream>
-
-Funcionario::~Funcionario() {}
 
 void Funcionario::setNome(const std::string& nome) {
     this->nome = nome;

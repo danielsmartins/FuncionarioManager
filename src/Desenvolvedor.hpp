@@ -10,6 +10,6 @@ class Desenvolvedor : public Funcionario {
     void setQuantidadeDeProjetos(int quantidadeDeProjetos);
     int getQuantidadeDeProjetos();
 
-    float calcularSalarioFinal() override;
-    void exibirInformacoes() override;
+    float calcularSalarioFinal() const override;
+    void exibirInformacoes() const override;
 };

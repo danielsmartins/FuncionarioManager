@@ -9,6 +9,6 @@ public:
   void setBonusMensal(float bonusMensal);
   float getBonusMensal();
 
-  float calcularSalarioFinal() override;
-  void exibirInformacoes() override;
+  float calcularSalarioFinal() const override;
+  void exibirInformacoes() const override;
 };
